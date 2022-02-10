@@ -1,8 +1,8 @@
 name: Deploy backend to host
 'on':
-push:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
