@@ -33,7 +33,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCER_huB_TOKEN}}
+          password: ${{ secrets.DOCER_HUB_TOKEN}}
       -
         name: prepare the docker-compose run
         run: |
